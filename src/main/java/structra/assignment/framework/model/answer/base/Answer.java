@@ -81,4 +81,10 @@ public abstract class Answer<T extends Serializable> implements Data {
     public void setKey(Serializable key) {
         this.key = key;
     }
+
+    public String getText() { return text;
+    }
+
+    public T getExpected() { return expected;
+    }
 }

@@ -24,7 +24,7 @@ public class Example {
         double width = screenSize.getWidth();
         double height = screenSize.getHeight();
         int frameWidth = (int) (width / 2);
-        int frameHeight = (int) (height / 4);
+        int frameHeight = (int) (height / 2);
         frame.setLocation((int) (width - frameWidth) / 2, (int) (height - frameHeight) / 2);
         frame.setSize(frameWidth, frameHeight);
 

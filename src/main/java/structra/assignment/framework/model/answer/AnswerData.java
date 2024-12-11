@@ -65,4 +65,16 @@ public class AnswerData implements Serializable {
         this.expected = expected;
         this.key = key;
     }
+
+    public String getType() { return type;
+    }
+
+    public Serializable getExpected() { return expected;
+    }
+
+    public Serializable getKey() { return key;
+    }
+
+    public String getText() { return text;
+    }
 }

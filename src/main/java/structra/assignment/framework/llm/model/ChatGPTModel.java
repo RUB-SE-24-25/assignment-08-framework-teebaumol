@@ -126,7 +126,7 @@ public class ChatGPTModel implements MachineLearningModel {
     /**
      * Initiates the generation process in a background thread.
      *
-     * @param prompt The input prompt to be sent to the ChatGPT API.
+     * @param prompt The input prompt to be sent to the ChatGPT API.}
      */
     @Override
     public CompletableFuture<String> execute(String prompt) {

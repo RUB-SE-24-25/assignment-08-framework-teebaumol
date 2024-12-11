@@ -95,7 +95,5 @@ public enum OpenQuestionContext implements SystemContext {
      * @return {@inheritDoc}
      */
     @Override
-    public String getContext() {
-        return String.format(contextMessage, getOpenAnswerQuestionFormatTemplate());
-    }
+    public String getContext() {return String.format(contextMessage, getOpenAnswerQuestionFormatTemplate());}
 }

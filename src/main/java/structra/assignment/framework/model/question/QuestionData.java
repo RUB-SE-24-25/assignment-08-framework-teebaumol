@@ -32,6 +32,7 @@ import structra.assignment.framework.model.gen.questions.QuestionFactory;
 import structra.assignment.framework.model.question.base.Question;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 
 /**
@@ -78,5 +79,29 @@ public class QuestionData {
 
     public QuestionData(@NonNull QuestionType type) {
         this(type.toString(), "", 0.5f, 1, "", "", new ArrayList<>(), false);
+    }
+
+    public String getType() { return type;
+    }
+
+    public Collection<AnswerData> getAnswers() {return answers;
+    }
+
+    public Object getDifficulty() { return difficulty;
+    }
+
+    public String getText() { return text;
+    }
+
+    public long getPointsPossible() {return pointsPossible;
+    }
+
+    public String getExplanation() {return explanation;
+    }
+
+    public String getImageLink() {return imageLink;
+    }
+
+    public boolean isShuffledAnswers() { return true;
     }
 }
